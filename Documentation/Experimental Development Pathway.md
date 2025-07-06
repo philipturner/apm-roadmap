@@ -2,6 +2,12 @@
 
 https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
+<style>
+  table, th, td {
+    border: none; /* Removes the border */
+  }
+</style>
+
 <table>
 <tbody>
 
