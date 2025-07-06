@@ -33,6 +33,5 @@ Table of Contents:
 
 <br>
 
-© 2025. Philip A. Turner. Permissively licensed.
-
+© 2025. Philip A. Turner. Permissively licensed.<br>
 Drafted in collaboration with the open source community.
