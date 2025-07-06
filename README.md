@@ -1,11 +1,3 @@
-<div align="center">
-
-# A Nanofactory Roadmap 2:
-
-## Improved Proposal for a Comprehensive Diamondoid Nanofactory Development Program
-
----
-
 <div id="toc">
   <ul align="center" style="list-style: none">
     <summary>
@@ -17,10 +9,6 @@
       </h2>
     </summary>
   </ul>
-</div>
-
----
-
 </div>
 
 <br>
