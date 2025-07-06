@@ -11,7 +11,7 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
   **OS**
 
-  </td style="border: none;>
+  </td style="border: none;">
   <td>
   
   Debian 12 Bookworm
@@ -21,12 +21,12 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
 <!-- Row 2 -->
 <tr>
-  <td valign="top">
+  <td style="border: none;" valign="top">
 
   **Databases**
 
   </td>
-  <td style="border: none;>
+  <td style="border: none;">
 
   SalesDB<br>StockDB
 
