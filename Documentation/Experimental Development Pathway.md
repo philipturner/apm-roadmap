@@ -37,5 +37,5 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 </table>
 
 | OS  | Debian 12 Bookworm |
-| --- | ------------------ |
-| Databases | SalesDB StockDB |
+| :-- | ------------------ |
+| Databases | SalesDB StockDB AnotherDB TwoDBs |
