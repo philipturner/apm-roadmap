@@ -2,7 +2,7 @@
 
 https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
-<table border="0">
+<table style="border-collapse: collapse;">
 <tbody>
 
 <!-- Row 1 -->
