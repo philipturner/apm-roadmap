@@ -13,22 +13,12 @@ Objectives:
 
 Table of Contents:
 - [Experimental Development Pathway](./Documentation/Experimental%20Development%20Pathway.md)
-- [Principal Issue](./Documentation/Principal Issue.md)
-- Commercialization
-- Near-Term Experiments
+- [Principal Issue](./Documentation/Principal%20Issue.md)
+- [Commercialization](./Documentation/Commercialization.md)
+- [Near-Term Experiments](./Documentation/Near-Term%20Experiments.md)
 - CAD Software
-  - Motivation
-  - Implementation Plan
-
-Test table:
-
-| Phase | Parallelism | Frequency | Atom Count | Temperature | Pressure |
-| ----- | ----------- | --------- | ---------- | ----------- | -------- |
-| I     |             |           |            |             |          |
-
-| Phase | Barrier | Explanation |
-| ----- | ------- | ----------- |
-| I     | Point A | <b>Point B</b><br>Point C<br>Point D |
+  - [Motivation](./Documentation/CAD%20Software/Motivation.md)
+  - [Implementation Plan](./Documentation/CAD%20Software/Implementation%20Plan.md)
 
 © 2025. Philip A. Turner. Permissively licensed.
 
