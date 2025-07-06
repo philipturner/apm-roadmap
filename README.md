@@ -9,6 +9,8 @@
 <br>
 
 > TODO: Double check that all n-dashes have been substituted with explicit ampersand-colon identifiers.
+>
+> TODO: Ensure all hyperlinks from the Google Doc have transferred over.
 
 Objectives:
 - Revise the motivations for molecular nanotechnology, redirect R&D resources away from alternative pathways to continuation of Moore’s Law.

@@ -127,3 +127,16 @@
 
 </tbody>
 </table>
+
+Corrections to IMM rep058 and “simplified” proposals that may have followed it:
+- Expanded original Phase I to four phases
+- Eliminated egregious misuse of analog circuit theory (23 bits of DAC monotonicity)
+- Eliminated computationally intractable 6DOF kinematics
+- Reversed order of original Phase III and Phase IV
+- Eliminated acetylene and ethylene as candidate feedstocks
+- Eliminated phases dedicated to part assembly, focusing exclusively on atom assembly
+- Merged all phases dealing with minimally compact KSRM style replicators
+
+Objections to patents inspired by IMM rep058:
+- De-emphasized reliance on convenient organogermanium chemistry
+- De-emphasized reliance on energies as a [measure of simulation accuracy](https://www.biorxiv.org/content/10.1101/083055v1.full.pdf). This is the exact reason FP64 is used in traditional quantum chemistry simulations.
