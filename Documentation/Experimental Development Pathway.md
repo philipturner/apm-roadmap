@@ -2,17 +2,17 @@
 
 https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
-<table style="border-collapse: collapse;">
+<table>
 <tbody>
 
 <!-- Row 1 -->
 <tr>
-  <td style="border: none;">
+  <td>
 
   **OS**
 
   </td>
-  <td style="border: none;">
+  <td>
   
   Debian 12 Bookworm
   
@@ -21,12 +21,40 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
 <!-- Row 2 -->
 <tr>
-  <td style="border: none;">
+  <td valign="top">
 
   **Databases**
 
   </td>
-  <td style="border: none;">
+  <td>
+
+  SalesDB<br>StockDB
+
+  </td>
+</tr>
+
+<!-- Row 3 -->
+<tr>
+  <td valign="top">
+
+  **Databases**
+
+  </td>
+  <td>
+
+  SalesDB<br>StockDB
+
+  </td>
+</tr>
+
+<!-- Row 4 -->
+<tr>
+  <td valign="top">
+
+  **Databases**
+
+  </td>
+  <td>
 
   SalesDB<br>StockDB
 
