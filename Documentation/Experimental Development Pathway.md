@@ -4,27 +4,35 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
 <table>
 <tbody>
+
+<!-- Row 1 -->
 <tr>
-<td>
+  <td>
 
-**OS**
+  **OS**
 
-</td>
-<td>Debian 12 Bookworm</td>
+  </td>
+  <td>
+  
+  Debian 12 Bookworm
+  
+  </td>
 </tr>
+
+<!-- Row 2 -->
 <tr>
-<td valign="top">
+  <td valign="top">
 
-**Databases**
+  **Databases**
 
-</td>
-<td>
+  </td>
+  <td>
 
-* SalesDB
-* StockDB
+  SalesDB<br>StockDB
 
-</td>
+  </td>
 </tr>
+
 </tbody>
 </table>
 
