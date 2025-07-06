@@ -18,3 +18,5 @@ The design space for low atom count products has already been explored to the ma
 Robert Wolkow’s group revealed a glaring technical issue with packaging. Silicon dangling bonds are the only chemical substrate for scalable logic fabrication today. They are air-sensitive free radical sites, instantly destroyed by a single oxygen molecule. UHV-tight vacuum seals set an incredibly high standard for porosity. To be conservative, assume all near-term products face this challenge.
 
 <b>Single SiDB logic gates can be fabricated with Phase III technology.</b> These electronic structures are aligned to the 2D Si(100) surface lattice. As a result, Wolkow’s group made great strides toward automating the CAD and physical modeling. In contrast, 3D amorphous carbon structures are a maximally poor substrate for finely tailoring electronic properties.
+
+It may be possible to encapsulate a single SiDB radical in a hole free, nano-sized seal fabricated with 3D mechanosynthesis. This feat would be a major step toward Phase V (perfect vacuum seals) and Phase VIII (packaging electronic chips for mass distribution).
