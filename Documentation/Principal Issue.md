@@ -1,17 +1,8 @@
 # Principal Issue
 
 The margin of uncertainty is too large, hindering the ability to specify a bill of materials.<br>
-Original margin: 300 (March 2025)<br>
+Original margin: [300 (March 2025)](https://gist.github.com/philipturner/8d1d6680932b01fae4700b6f20da5198#next-steps)<br>
 Updated margin: >1000 (upper estimate / lower estimate)
-
----
-
-The margin of uncertainty is too large, hindering the ability to specify a bill of materials.
-
-Original margin: 300 (March 2025)
-
-Updated margin: >1000 (upper estimate / lower estimate)
-
 
 | Phase | Parallelism   | Frequency          | Atom Count    | Temperature | Pressure    |
 | ----- | ------------: | -----------------: | ------------: | ----------: | ----------: |
