@@ -2,7 +2,7 @@
 
 https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
-<table>
+<table border="0">
 <tbody>
 
 <!-- Row 1 -->
