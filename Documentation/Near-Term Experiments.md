@@ -6,6 +6,10 @@ Phases I&ndash;III have extreme barriers to entry.
 
 | Phase | Barrier | Explanation |
 | ----- | ------- | ----------- |
-| I     | Point A | Point B<br>Point C<br>Point D |
+| I     | High voltage electronics | 1000 V power filter<br>1000 V linear amplifier<br>Risk to health and safety (shock hazard) |
+| I     | Laser interferometry | Understand the speed limits of Michelson interferometry to clarify Phase IV<br>Complicated field of engineering, in general<br>Risk to health and safety (laser blinding) |
+| I     | Epoxy | Unfamiliar<br>Necessary to assemble precision nanopositioning and optical hardware<br>Possible health risk (bisphenol A fumes) |
+| I     | [Vibration isolation](https://gist.github.com/philipturner/a365d72c1ba5c4eedf1c331bb21d586d) | Solved problem, but still a pain |
+| III   | Transporting an entire UHV STM in a vehicle |
 
 Accelerate progress on the experimental side. Knock down the first barrier to entry into Phase I: high voltage electronics. Therefore, a concurrent project to the transimpedance amplifier will be a sub-phase of Phase I. Custom power supply module and linear amplifier, all using equipment rated for 3000&ndash;5000 V. Measure the output of the high voltage amplifier with an oscilloscope. Establish good safety practices, such as using insulated gloves and SHV connectors. Get rigorous peer review on the safety plan from experts in HV electronics.
