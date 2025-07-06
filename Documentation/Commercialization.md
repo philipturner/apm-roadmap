@@ -1,12 +1,12 @@
 # Commercialization
 
-The economic model is heavily inspired by EUV lithography (see the DeepSeek output below). Several funding sources have been pondered—venture capital, government, academia, sympathetic investors. Funding is not a particular challenge during Phases I&ndash;II. The optimistic case for Phases III&ndash;IV (1 UHV STM) puts the R&D resources at <b>$2.8 million</b>, O(10 employees), O(3 years). The worst case (1000 UHV STMs) balloons this to <b>$7.8 billion</b>. Before refining the [ballparks for cost](https://gist.github.com/philipturner/8d1d6680932b01fae4700b6f20da5198#conclusion), we ought to clarify the reasons the worst case might happen.
+The economic model is heavily inspired by EUV lithography (see the DeepSeek output below). Several funding sources have been pondered&mdash;venture capital, government, academia, sympathetic investors. Funding is not a particular challenge during Phases I&ndash;II. The optimistic case for Phases III&ndash;IV (1 UHV STM) puts the R&D resources at <b>$2.8 million</b>, O(10 employees), O(3 years). The worst case (1000 UHV STMs) balloons this to <b>$7.8 billion</b>. Before refining the [ballparks for cost](https://gist.github.com/philipturner/8d1d6680932b01fae4700b6f20da5198#conclusion), we ought to clarify the reasons the worst case might happen.
 
-> <b>$20B+</b> was spent on EUV R&D over ~30 years (public + private funding).
+> <b>$20B+</b> was spent on EUV R&D over ~30 years (public + private funding).<br>
 > ASML alone invested <b>€6B+</b> in EUV between 2012&ndash;2020.
 >
-> <b>Early Stage:</b> U.S. government (DoE, DARPA) funded foundational research.
-> <b>Mid-Stage:</b> SEMATECH and EUV LLC transitioned it to industry.
+> <b>Early Stage:</b> U.S. government (DoE, DARPA) funded foundational research.<br>
+> <b>Mid-Stage:</b> SEMATECH and EUV LLC transitioned it to industry.<br>
 > <b>Commercialization:</b> ASML (with Intel/TSMC/Samsung backing) turned it into a production-ready tool.
 >
 > Today, ASML is the sole producer of EUV lithography machines. The effort stands as one of the most ambitious public-private R&D collaborations in tech history.
