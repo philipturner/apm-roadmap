@@ -1,1 +1,5 @@
 # CAD Software: Implementation Plan
+
+An ambitious software engineering project will simulate the largest possible nanomachine systems, with the highest quality visualization. It will repurpose consumer hardware, designed for AI/ML, to instead perform dense linear algebra and embarrassingly parallel molecular mechanics modeling. The entire software stack rests heavily on the FP32 data type, with FP16/BF16 serving little practical use.
+
+CAD at the million atom scale requires both high throughput real time rendering, and design practices that scale to very large atom counts. Importantly, [automation of the bond topology setup](https://github.com/philipturner/HDL/blob/2025-cleanups/Documentation/API/Reconstruction.md) and $O(n)$ scaling simulations. Scalable design probably means <b>restriction to exclusively sp<sup>3</sup> hybridized crystal lattices, which coincides with the hardest material to build</b> in experiment. See also: [additional discussion](http://apm.bplaced.net/w/index.php?title=Software) of nanofactory design and control software.
