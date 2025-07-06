@@ -7,11 +7,11 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
 <!-- Row 1 -->
 <tr>
-  <td>
+  <td style="border: none;">
 
   **OS**
 
-  </td>
+  </td style="border: none;>
   <td>
   
   Debian 12 Bookworm
@@ -26,7 +26,7 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
   **Databases**
 
   </td>
-  <td>
+  <td style="border: none;>
 
   SalesDB<br>StockDB
 
@@ -38,4 +38,6 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
 | OS  | Debian 12 Bookworm |
 | :-- | ------------------ |
+| Databases | SalesDB StockDB AnotherDB TwoDBs |
+| Databases | SalesDB StockDB AnotherDB TwoDBs |
 | Databases | SalesDB StockDB AnotherDB TwoDBs |
