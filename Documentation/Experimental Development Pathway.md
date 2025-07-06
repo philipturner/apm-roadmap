@@ -1,20 +1,18 @@
 # Experimental Development Pathway
 
-https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
-
 <table>
 <tbody>
 
 <!-- Row 1 -->
 <tr>
-  <td>
+  <td valign="top">
 
-  **OS**
+  Phase I
 
   </td>
   <td>
   
-  Debian 12 Bookworm
+  **LiNbO3 Metrology**
   
   </td>
 </tr>
@@ -23,12 +21,12 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 <tr>
   <td valign="top">
 
-  **Databases**
+  Phase II
 
   </td>
   <td>
 
-  SalesDB<br>StockDB
+  **LiNbO3 STM**
 
   </td>
 </tr>
@@ -37,12 +35,14 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 <tr>
   <td valign="top">
 
-  **Databases**
+  Phase III
 
   </td>
   <td>
 
-  SalesDB<br>StockDB
+  **UHV LiNbO3 STM**<br>
+  critical technology: organogermanium tripod synthesis<br>
+  critical technology: fast inverted mode tip registration
 
   </td>
 </tr>
@@ -51,21 +51,17 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 <tr>
   <td valign="top">
 
-  **Databases**
+  Phase IV
 
   </td>
   <td>
 
-  SalesDB<br>StockDB
+  **Silicon Carbide Mechanosynthesis**<br>
+  critical technology: organotin tripod synthesis<br>
+  critical technology: fast millimeter scale displacements
 
   </td>
 </tr>
 
 </tbody>
 </table>
-
-| OS  | Debian 12 Bookworm |
-| :-- | ------------------ |
-| Databases | SalesDB StockDB AnotherDB TwoDBs |
-| Databases | SalesDB StockDB AnotherDB TwoDBs |
-| Databases | SalesDB StockDB AnotherDB TwoDBs |
