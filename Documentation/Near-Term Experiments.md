@@ -5,7 +5,7 @@ Philip’s next project (“Phase 0”) is to materialize an improved version of
 Phases I&ndash;III have extreme barriers to entry.
 
 | Phase | Barrier | Explanation |
-| ----- | ------- | ----------- |
+| :---- | :------ | :---------- |
 | I     | High voltage electronics | 1000 V power filter<br>1000 V linear amplifier<br>Risk to health and safety (shock hazard) |
 | I     | Laser interferometry | Understand the speed limits of Michelson interferometry to clarify Phase IV<br>Complicated field of engineering, in general<br>Risk to health and safety (laser blinding) |
 | I     | Epoxy | Unfamiliar<br>Necessary to assemble precision nanopositioning and optical hardware<br>Possible health risk (bisphenol A fumes) |

@@ -5,7 +5,7 @@ Original margin: [300 (March 2025)](https://gist.github.com/philipturner/8d1d668
 Updated margin: >1000 (upper estimate / lower estimate)
 
 | Phase | Parallelism   | Frequency          | Atom Count    | Temperature | Pressure    |
-| ----- | ------------: | -----------------: | ------------: | ----------: | ----------: |
+| :---- | ------------: | -----------------: | ------------: | ----------: | ----------: |
 | I     | 1             | n/a                | n/a           | 300 K       | 760 torr    |
 | II    | 1             | n/a                | n/a           | 300 K       | 760 torr    |
 | III   | 1             | 0.001&ndash;10 Hz  | n/a           | 300 K       | ~1e-10 torr |
