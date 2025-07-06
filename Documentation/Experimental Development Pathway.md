@@ -131,7 +131,7 @@
 Corrections to IMM rep058 and “simplified” proposals that may have followed it:
 - Expanded original Phase I to four phases
 - Eliminated egregious misuse of analog circuit theory (23 bits of DAC monotonicity)
-- Eliminated computationally intractable 6DOF kinematics
+- Eliminated [almost computationally intractable](https://en.wikipedia.org/wiki/Inverse_kinematics#Generic_solutions) 6DOF kinematics
 - Reversed order of original Phase III and Phase IV
 - Eliminated acetylene and ethylene as candidate feedstocks
 - Eliminated phases dedicated to part assembly, focusing exclusively on atom assembly
