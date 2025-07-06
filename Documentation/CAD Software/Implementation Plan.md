@@ -10,6 +10,8 @@ Molecular Renderer: Origin of the need to restrict to Apple silicon and discrete
 
 HDL: Shape description language compiler from <i>Nanosystems</i>, Ch. 14.6. Exploits direct control over fixed width SIMD vectors, performing computationally intensive operations over homogeneous crystal unit cells. All with acceptably low latency. Almost a finished library.
 
+HDL: Shape description language compiler from <i>Nanosystems,</i> Ch. 14.6. Exploits direct control over fixed width SIMD vectors, performing computationally intensive operations over homogeneous crystal unit cells. All with acceptably low latency. Almost a finished library.
+
 xTB: Recent developments boosted confidence that the 2.0&ndash;3.0x whole program speedup target is achievable. Source: https://github.com/grimme-lab/xtb/issues/1315
 
 MM4: Replace the OpenMM dependency with a custom backend, written from scratch in Metal (macOS) and DirectX (Windows). Intentionally excludes Linux and multi-GPU superclusters.
