@@ -1,4 +1,4 @@
-# Near-Term Experiments
+# Near-Term: Experiments
 
 Philip’s next project (“Phase 0”) is to materialize an improved version of “Fast low-noise transimpedance amplifier” ([arxiv.org/abs/2007.00615](https://arxiv.org/abs/2007.00615)). It will remove the need for dangerous high voltage electronics and use a 300 MΩ feedback resistor. The project also requires careful consideration of PCBs with ADC/DAC chips, compensation capacitors for capacitive displacement sensing, and power filter feedback loops. It will be a challenging, but important, demonstration of control over external EMI and strong coupling between analog components. Assembly will rely entirely on hand soldering, making the lab setup minimal and convenient.
 

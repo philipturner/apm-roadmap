@@ -30,8 +30,9 @@ Objectives:
 Table of Contents:
 - [Experimental Development Pathway](./Documentation/Experimental%20Development%20Pathway.md)
 - [Principal Issue](./Documentation/Principal%20Issue.md)
-- [Commercialization](./Documentation/Commercialization.md)
-- [Near-Term Experiments](./Documentation/Near-Term%20Experiments.md)
+- [Near-Term](#)
+  - [Experiments](./Documentation/Near-Term/Experiments.md)
+  - [Commercialization](./Documentation/Near-Term/Commercialization.md)
 - [CAD Software](#)
   - [Motivation](./Documentation/CAD%20Software/Motivation.md)
   - [Implementation Plan](./Documentation/CAD%20Software/Implementation%20Plan.md)
