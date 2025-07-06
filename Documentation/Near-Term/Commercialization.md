@@ -21,4 +21,8 @@ Robert Wolkow’s group revealed a glaring technical issue with packaging. Silic
 
 It may be possible to encapsulate a single SiDB radical in a hole free, nano-sized seal fabricated with 3D mechanosynthesis. This feat would be a major step toward Phase V (perfect vacuum seals) and Phase VIII (packaging electronic chips for mass distribution). It may be economical to ship customizable SiDB logic patterns to hobbyists for an accessible price. This business model is analogous to research grade [solid phase polypeptide synthesis](https://en.wikipedia.org/wiki/Solid-phase_synthesis).
 
+> Note the extreme barrier to entry for acquiring custom chips with EUV-enabled nodes. On the order of $10,000 per wafer, which may pale in comparison to the design and software licensing cost.
+>
+> We assert that physical objects aligned to the crystal lattice are orders of magnitude easier to design. Translational symmetry is the reason DNA origami designs scale to very large building block counts.
+
 Our product will be soldered onto PCBs, serving similar functions to [TTL](https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic) components from the 1960's. The continued existence of the vinyl record market demonstrates profitability of "retro" technologies, with transistor counts matching the earliest digital hardware. The novelty of possessing the first "atomically precise" logic will distinguish our product from other discrete transistors.
