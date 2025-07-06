@@ -12,9 +12,13 @@ Objectives:
 - Point C
 
 Table of Contents:
-- Document A
-- Document B
-- Document C
+- [Experimental Development Pathway](./Documentation/Experimental%20Development%20Pathway.md)
+- [Principal Issue](./Documentation/Principal Issue.md)
+- Commercialization
+- Near-Term Experiments
+- CAD Software
+  - Motivation
+  - Implementation Plan
 
 Test table:
 
@@ -24,7 +28,7 @@ Test table:
 
 | Phase | Barrier | Explanation |
 | ----- | ------- | ----------- |
-| I     | Point A | Point B<br>Point C<br>Point D |
+| I     | Point A | <b>Point B</b><br>Point C<br>Point D |
 
 © 2025. Philip A. Turner. Permissively licensed.
 
