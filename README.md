@@ -8,6 +8,8 @@
 
 <br>
 
+> TODO: Double check that all n-dashes have been substituted with explicit ampersand-colon identifiers.
+
 Objectives:
 - Revise the motivations for molecular nanotechnology, redirect R&D resources away from alternative pathways to continuation of Moore’s Law.
 - Outline the long, multi-phase development path on the experimental side.
