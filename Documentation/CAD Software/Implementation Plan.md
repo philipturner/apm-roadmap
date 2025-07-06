@@ -8,8 +8,6 @@ Swift programming language: Modern programming language, inspired by Python, Rus
 
 Molecular Renderer: Origin of the need to restrict to Apple silicon and discrete GPUs. Imposter method is not acceptable. Need visually satisfying self-shadowing. To achieve this effect correctly, one must identify the average distance from one reflecting surface to other nearby surfaces. This is accomplished through ray tracing, efficient random sampling, and real time denoising (combining samples from previous frames). A marvel of software engineering made this denoising not only tractable, but accurate enough to triple the image resolution.
 
-HDL: Shape description language compiler from <i>Nanosystems</i>, Ch. 14.6. Exploits direct control over fixed width SIMD vectors, performing computationally intensive operations over homogeneous crystal unit cells. All with acceptably low latency. Almost a finished library.
-
 HDL: Shape description language compiler from <i>Nanosystems,</i> Ch. 14.6. Exploits direct control over fixed width SIMD vectors, performing computationally intensive operations over homogeneous crystal unit cells. All with acceptably low latency. Almost a finished library.
 
 xTB: Recent developments boosted confidence that the 2.0&ndash;3.0x whole program speedup target is achievable. Source: https://github.com/grimme-lab/xtb/issues/1315
