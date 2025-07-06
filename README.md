@@ -31,11 +31,11 @@ Table of Contents:
 - [Experimental Development Pathway](./Documentation/Experimental%20Development%20Pathway.md)
 - [Principal Issue](./Documentation/Principal%20Issue.md)
 - [Near-Term](#)
-  - [Experiments](./Documentation/Near-Term/Experiments.md)
-  - [Commercialization](./Documentation/Near-Term/Commercialization.md)
+  - [Experiments](./Documentation/Near-Term/Experiments.md) (Phases I&ndash;II)
+  - [Commercialization](./Documentation/Near-Term/Commercialization.md) (Phase III)
 - [CAD Software](#)
-  - [Motivation](./Documentation/CAD%20Software/Motivation.md)
-  - [Implementation Plan](./Documentation/CAD%20Software/Implementation%20Plan.md)
+  - [Motivation](./Documentation/CAD%20Software/Motivation.md) (Phase IV)
+  - [Implementation Plan](./Documentation/CAD%20Software/Implementation%20Plan.md) (Phase V&ndash;VI)
 
 <br>
 
