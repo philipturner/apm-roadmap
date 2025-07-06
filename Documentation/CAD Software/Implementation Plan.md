@@ -12,7 +12,7 @@ Molecular Renderer: Origin of the need to restrict to Apple silicon and discrete
 - Practical limits are likely several tens of millions of atoms, not the 200 million previously desired because of the KSRM replicator atom count. This is due to the very large number of bits per atom, in the acceleration structure and auxiliary CPU-side arrays. A tradeoff for making it practical to code Swift programs as easily as in previous projects.
 - Target is nanofactory / 3D printer / rod logic scenes, where most atoms reside in static housing a small fraction (perhaps 10%) can move each frame. This percentage is the second contributor to the practical limit for atom count.
 
-HDL: Shape description language compiler from <i>Nanosystems,</i> Ch. 14.6. Exploits direct control over fixed width SIMD vectors, performing computationally intensive operations over homogeneous crystal unit cells. All with acceptably low latency. Almost a finished library.
+[HDL:](https://github.com/philipturner/HDL/tree/2025-cleanups) Shape description language compiler from <i>Nanosystems,</i> Ch. 14.6. Exploits direct control over fixed width SIMD vectors, performing computationally intensive operations over homogeneous crystal unit cells. All with acceptably low latency. Almost a finished library.
 
 xTB: Recent developments boosted confidence that the 2.0&ndash;3.0x whole program speedup target is achievable. Source: https://github.com/grimme-lab/xtb/issues/1315
 
