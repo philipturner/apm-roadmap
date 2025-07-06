@@ -11,8 +11,8 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
   **OS**
 
-  </td style="border: none;">
-  <td>
+  </td>
+  <td style="border: none;">
   
   Debian 12 Bookworm
   
@@ -21,7 +21,7 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
 <!-- Row 2 -->
 <tr>
-  <td style="border: none;" valign="top">
+  <td style="border: none;">
 
   **Databases**
 
