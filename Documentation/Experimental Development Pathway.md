@@ -6,9 +6,7 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 <tbody>
 <tr>
 <td>
-
 **OS**
-
 </td>
 <td>Debian 12 Bookworm</td>
 </tr>
@@ -19,10 +17,8 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 
 </td>
 <td>
-
 * SalesDB
 * StockDB
-
 </td>
 </tr>
 </tbody>
