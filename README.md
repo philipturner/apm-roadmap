@@ -4,6 +4,23 @@
 
 ## Improved Proposal for a Comprehensive Diamondoid Nanofactory Development Program
 
+---
+
+<div id="toc">
+  <ul align="center" style="list-style: none">
+    <summary>
+      <h1>
+        A Nanofactory Roadmap 2:
+      </h1>
+      <h2>
+        Improved Proposal for a Comprehensive Diamondoid Nanofactory Development Program
+      </h2>
+    </summary>
+  </ul>
+</div>
+
+---
+
 </div>
 
 <br>
