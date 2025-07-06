@@ -23,7 +23,7 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 <tr>
   <td valign="top">
 
-  <span style="background-color:#FF0000">**Databases**</span>
+  **Databases**
 
   </td>
   <td>
