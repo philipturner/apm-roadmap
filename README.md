@@ -20,6 +20,8 @@ Table of Contents:
   - [Motivation](./Documentation/CAD%20Software/Motivation.md)
   - [Implementation Plan](./Documentation/CAD%20Software/Implementation%20Plan.md)
 
+<br>
+
 © 2025. Philip A. Turner. Permissively licensed.
 
 Drafted in collaboration with the open source community.
