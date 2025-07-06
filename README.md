@@ -13,7 +13,7 @@ Objectives:
   - Highlight new technologies that will need to be developed proactively, to arrive just on schedule for the later development phases.
   - Take action to break the barrier to entry for Phase I.
 - Outline the ambitions for a CAD software suite, which will lead to improved clarity on the more far-term development phases.
-  - PyTorch for nanomachines. Importance of ergonomic API design and greater programmability, unlocking more control for the user. This often comes with negative effects on backend performance (CPU–GPU CPU-GPU CPU&ndash;GPU communication gap) and a higher barrier to entry (more extensive tutorial suite).
+  - PyTorch for nanomachines. Importance of ergonomic API design and greater programmability, unlocking more control for the user. This often comes with negative effects on backend performance (CPU&ndash;GPU communication gap) and a higher barrier to entry (more extensive tutorial suite).
   - The need to restrict the software stack to Apple silicon and high-end Windows PCs (AVX2, discrete GPUs).
 
 Table of Contents:
