@@ -36,6 +36,6 @@ https://github.com/orgs/community/discussions/50671#discussioncomment-12957139
 </tbody>
 </table>
 
-| OS | Debian 12 Bookworm |
-| -- | ------------------ |
-| Databases | SalesDB<br>StockDB |
+| OS  | Debian 12 Bookworm |
+| --- | ------------------ |
+| Databases | SalesDB StockDB |
