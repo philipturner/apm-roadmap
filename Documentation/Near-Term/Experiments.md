@@ -23,3 +23,17 @@ Piezo stack fabrication will occur in a late sub-phase of Phase I. One important
 Kinematic mount fabrication will occur in a late sub-phase of Phase I. It builds on epoxy, a barrier to entry for Phase I. Consequential struggles with engineering the Phase II system are [described to a high level of detail](https://github.com/philipturner/home-built-stm).
 
 Reflow soldering will likely not be needed until Phase II, which requires the DAC81404 chip (QFN package). It is a 4-channel DAC from the highest quality product line of Texas Instruments. The barrier to entry for reflow soldering has already been broken.
+
+## Shortcut Through Phase I
+
+There is one idea to skip laser interferometry, and the subsequent need for vibration isolation to get nanometer-stable position readings. Directly build a piezo stack and test whether it can perform coarse actuations in response to a sawtooth voltage. The principal challenge is the number of variables that must be debugged. A single variable might be possible to bisect, like narrowing down lines of code to find a culprit. Two variables pose a continuous 2D space, borderline intractable to navigate. We have eliminated uncertainty in crystallographic orientation as a catastrophic unknown variable.
+
+The high barrier to entry for laser interferometry motivates attempting to skip it, deferring investigation to Phase IV. There is low confidence that this will succeed. A helpful elucidation will be whether a full kinematic mount (three stacks + low-friction nanoasperity) is required. Another is the number of fabrication attempts needed. It is advantageous (although stressful) to order the required number of LiNbO3 plates from Crystal Substrates, 3 weeks in advance. The massive time delay + non-negligible costs deterred running the first test of LiNbO3 during early 2025.
+
+Actions to solve the root causes of this issue:
+- Have other tasks (e.g. 1000 V linear amplifier) queued up for the possible 3 week wait
+- Rectify the basic physics involved and minimum displacement target
+- Elaborate on the assembly process (e.g. epoxy) and chance of failure
+- Create CAD models and/or simulations to finalize the specific plate dimensions that must be ordered
+- Quantify the number of simultaneous control variables
+- Obtain more confidence and experience in the relevant engineering disciplines, such as analog electronics
