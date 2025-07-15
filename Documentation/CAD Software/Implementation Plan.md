@@ -30,9 +30,14 @@ The xTB C API doesn't work on Windows. This event reminded me of a conclusion re
 
 Don't bake simulators into the core CAD workflow, when they might not even compile, or pre-compiled dylibs must be hosted on GitHub. Instead, create an environment where users can easily link custom dylibs to the `Workspace` executable. The main interface will be a `run.sh` and/or `run.bat` script. It serves two purposes:
 - Force the Swift compiler to use the `-Xswiftc -Ounchecked` mode.
-- Facilitate linking of dylibs (currently just FidelityFX and DXCompiler on Windows)
+- Facilitate downloading and linking of dylibs (currently just FidelityFX and DXCompiler on Windows).
 
 Three Swift packages serve as the "core" of nanotech CAD:
 - Molecular Renderer
 - HDL
 - A fork of `swift-numerics` that supports quaternions. It grew outdated since 2022, but it's not worth the hassle to fuse recent commits from `main` into the branch.
+
+Notable design choices:
+- The core does not define a user interface. Instead, it gives the programmer control over keyboard and mouse events. That way, they can construct the Minecraft-like UI from the old renderer without baking that into the main code base.
+- Atom radii and atom colors are copied from the old renderer (evolution of NanoEngineer parameters), but the programmer can override them before starting the renderer.
+- `.build` will be used to store a shader cache, if DXCompiler doesn't integrate well with system caches. Users are encouraged to use this as a default folder for reproducible SSD caching workflows. It is a path relative to the `Workspace` executable that always exists, regardless of the platform or specific machine.
