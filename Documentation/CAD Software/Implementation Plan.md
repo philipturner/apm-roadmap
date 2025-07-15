@@ -13,10 +13,25 @@ CAD at the million atom scale requires both high throughput real time rendering,
 - Target is nanofactory / 3D printer / rod logic scenes, where most atoms reside in static housing. A small fraction (perhaps 10%) can move each frame. This percentage is the second contributor to the practical limit for atom count.
 
 [HDL:](https://github.com/philipturner/HDL/tree/2025-cleanups) Shape description language compiler from <i>Nanosystems,</i> Ch. 14.6.4. Exploits direct control over fixed width SIMD vectors, performing computationally intensive operations over homogeneous crystal unit cells. All with acceptably low latency. Almost a finished library.
+- Considered adding dedicated support for 2D lattices (graphene) that are more likely to be buildable IRL. Concluded that this is out of scope, and conflicts with the purpose of the library. Instead, retain the short tutorial that models graphene with the 3D `Hexagonal` basis and a simple transformation.
 
 [xTB:](https://github.com/grimme-lab/xtb) Recent developments boosted confidence that the 2.0&ndash;3.0x whole program speedup target is achievable. Source: https://github.com/grimme-lab/xtb/issues/1315
+- React to the recent news of g-xTB, and its complications for open-shell simulations.
 
 [MM4:](https://github.com/philipturner/mm4) Replace the OpenMM dependency with a custom backend, written from scratch in Metal (macOS) and DirectX (Windows). Intentionally excludes Linux and multi-GPU superclusters.
 - Enable fluid dynamics simulation in exploratory studies of Phase V. Extend [MM4Parameters](https://philipturner.github.io/MM4/documentation/mm4/mm4parameters) to sp<sup>3</sup> hybridized feedstock molecules. Very complicated algorithms for retaining $O(n)$ scaling in nonbonded force computation.
 - Impractical to offload [rigid body dynamics](https://philipturner.github.io/MM4/documentation/mm4/mm4rigidbody) and other rotary motor constraints to the GPU. Rotary constraints are an artifact of easily coded CPU-centric time integrators. Completely nonphysical when the actuation source is 3DOF LiNbO3 picopositioners.
 - Force the user to script energy minimizations in Swift code, with a CPU&ndash;GPU data transfer at every timestep. Encourage exploitation of key-value SSD caching, which defeated a simulation bottleneck in [mechanosynthetic-build-sequences](https://github.com/philipturner/mechanosynthetic-build-sequences). Exacerbates the barrier to entry.
+
+## Shortcut Through Implementation Plan
+
+The xTB C API doesn't work on Windows. This event reminded me of a conclusion reached in ~August 2024, that we just need a correct foundation for nanotech CAD that compiles/runs on all platforms. Written from the ground up, entirely in Swift. The mindset behind the motivation to replace OpenMM with a custom Swift code base. The MSEP project was motivated by a similar goal: get the basics right.
+
+Don't bake simulators into the core CAD workflow, when they might not even compile, or pre-compiled dylibs must be hosted on GitHub. Instead, create an environment where users can easily link custom dylibs to the `Workspace` executable. The main interface will be a `run.sh` and/or `run.bat` script. It serves two purposes:
+- Force the Swift compiler to use the `-Xswiftc -Ounchecked` mode.
+- Facilitate linking of dylibs (currently just FidelityFX and DXCompiler on Windows)
+
+Three Swift packages serve as the "core" of nanotech CAD:
+- Molecular Renderer
+- HDL
+- A fork of `swift-numerics` that supports quaternions. It grew outdated since 2022, but it's not worth the hassle to fuse recent commits from `main` into the branch.
