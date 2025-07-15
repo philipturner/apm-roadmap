@@ -15,7 +15,8 @@ CAD at the million atom scale requires both high throughput real time rendering,
 [HDL:](https://github.com/philipturner/HDL/tree/2025-cleanups) Shape description language compiler from <i>Nanosystems,</i> Ch. 14.6.4. Exploits direct control over fixed width SIMD vectors, performing computationally intensive operations over homogeneous crystal unit cells. All with acceptably low latency. Almost a finished library.
 - Considered adding dedicated support for 2D lattices (graphene) that are more likely to be buildable IRL. Concluded that this is out of scope, and conflicts with the purpose of the library. Instead, retain the short tutorial that models graphene with the 3D `Hexagonal` basis and a simple transformation.
 
-[xTB:](https://github.com/grimme-lab/xtb) Recent developments boosted confidence that the 2.0&ndash;3.0x whole program speedup target is achievable. Source: https://github.com/grimme-lab/xtb/issues/1315
+[xTB:](https://github.com/grimme-lab/xtb) Modern replacement for Gaussian 16 and GAMESS (US). Especially with the g-xTB method that performs on par with B3LYP.
+- Recent developments boosted confidence that the 2.0&ndash;3.0x whole program speedup target is achievable. Source: https://github.com/grimme-lab/xtb/issues/1315
 - React to the recent news of g-xTB, and its complications for open-shell simulations.
 
 [MM4:](https://github.com/philipturner/mm4) Replace the OpenMM dependency with a custom backend, written from scratch in Metal (macOS) and DirectX (Windows). Intentionally excludes Linux and multi-GPU superclusters.
