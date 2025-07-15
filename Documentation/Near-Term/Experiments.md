@@ -2,7 +2,13 @@
 
 Phase 0: Immediate target is to materialize an improved version of “Fast low-noise transimpedance amplifier” ([arxiv.org/abs/2007.00615](https://arxiv.org/abs/2007.00615)). It will remove the need for dangerous high voltage electronics and use a 300 MΩ feedback resistor. The project also requires careful consideration of PCBs with ADC/DAC chips, compensation capacitors for capacitive displacement sensing, and power filter feedback loops. It will be a challenging, but important, demonstration of control over external EMI and strong coupling between analog components. Assembly will rely entirely on hand soldering, making the lab setup minimal and convenient.
 
+> Update: split Phase 0 into two parts
+> 1) Transimpedance amplifier without capacitive displacement sensing
+> 2) Use capacitive displacement sensing to detect the micron-scale actuations from a ThorLabs piezo stack. It requires low voltages of 15&ndash;45 V. Although the PZT material suffers from creep, it's a more accessible stepping stone toward the end goal.
+
 Another component of Phase 0 is finite element simulation of electromagnetic fields. Recent developments suggest the Elmer dependency of FreeCAD can be compiled, by targeting x86\_64 and running under Rosetta 2 on Apple silicon. While it is computationally intractable to model electromagnetic radiation, the tool may elucidate static electric fields from nearby high voltage conductors.
+
+> Update: Elmer doesn't compile, at least on my specific Mac. There is no explanation of why the compiler error happens every time. I'll have to use my Windows machine to run these simulations, near-term. It's faster than investing more time into getting it to run on Mac.
 
 Phases I&ndash;III have extreme barriers to entry.
 
@@ -37,3 +43,7 @@ Actions to solve the root causes of this issue:
 - Create CAD models and/or simulations to finalize the specific plate dimensions that must be ordered
 - Quantify the number of simultaneous control variables
 - Obtain more confidence and experience in the relevant engineering disciplines, such as analog electronics
+
+## Shortcut Through Phase III
+
+Tripod synthesis is out of scope. It requires access to high-field NMR spectroscopy. I've given up on trying to perform this synthesis, and it's a distraction anyway. The biggest problem is the cost and complexity of the electrical and vacuum hardware, to even manipulate hydrogen atoms on a silicon surface.
