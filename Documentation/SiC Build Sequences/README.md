@@ -41,7 +41,7 @@ Organotins are needed energetically in two situations, based on GFN2-xTB energie
   - Exploits an equilibrium process, where the H has non-negligible probability of remaining on the Si moiety or the Sn tooltip
   - Requires a subsequent step that transports the grabbed hydrogen to a more energetically downhill radical, such as Ge or Si
 
-Discovered new fundamental issues the lattice extension:
+Discovered new fundamental issues with lattice extension:
 - Inevitable creep of the SiC(111) surface with "carbons on top", shrinking the edges of the atomic layer every 3 iterations. All attempts to fill a cuboidal volume with unit cells resulted in a convex pyramid.
 - No detailed simulation research on whether SiC(111) with "carbons on top" can be extended. A brief attempt at proposing a layer initiation sequence (by hand / mental math) ended in mixed results.
 - Most likely need control over angle of C<sub>3</sub>C-CC· tool, when abstracting H from a methyl group to form a Si-C bond. This means the IRL nanopositioning device needs quasi-5DOF, or control of the static orientation prior to tip approach.
