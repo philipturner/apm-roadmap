@@ -33,7 +33,7 @@ Reaction "trees" that explore multiple plausible pathways to the end goal. If on
 
 Discovered and solved all major issues with extending to multiple SiC unit cells on a SiC(111) surface with "silicons on top".
 - Pathological situation with crowded steric issues and chance of 5-ring formation. This situation never appears when applying the primitives one-by-one on a hexagonal drawing board. Except when intentionally extending cells in the wrong order, closing a ring around a hole of unbuilt cells.
-- Combinatorial possibilities of H-tunneling pathologies reveal no major theoretical arguments against feasibility. Overcame that fact that we cannot know, with confidence, which specific H-tunneling pathologies will happen IRL.
+- Combinatorial possibilities of H-tunneling pathologies reveal no major theoretical arguments against feasibility. Overcame the fact that we cannot know, with confidence, which specific H-tunneling pathologies will happen IRL.
 
 Organotins are needed energetically in two situations, based on GFN2-xTB energies:
 - Depositing SiH<sub>3</sub> onto a Si<sub>3</sub>C· site
