@@ -54,7 +54,7 @@ Other fundamental issues that simulations cannot answer:
 
 ## Actions to Take
 
-We have concerningly low confidence that both the build surface and tooltip can be fabricated. If so, reaction frequency may be so slow as to be entirely impractical. The concerns deserve detailed clarification and formalization.
+We have concerningly low confidence that both the build surface and tooltip can be fabricated. Even if they can, reaction frequency may be so slow as to be entirely impractical. The concerns deserve detailed clarification and formalization.
 
 An equally deserved task is revisiting the concluded discoveries with:
 - More accurate models (g-xTB)
@@ -62,3 +62,5 @@ An equally deserved task is revisiting the concluded discoveries with:
 - More pessimistic (finite temperature) reaction paths
 
 Testing these discoveries with IRL hardware will be dangerous and extremely complicated. Much less practical than inverted mode mechanosynthesis of amorphous C with a randomly positioned set of Ge tooltips.
+
+<b>We must be absolutely sure that crystal structure is a mandatory prerequisite for massively parallel molecular manufacturing.</b>
