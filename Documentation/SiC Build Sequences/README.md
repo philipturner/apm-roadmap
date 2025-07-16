@@ -43,7 +43,7 @@ Organotins are needed energetically in two situations, based on GFN2-xTB energie
 
 Discovered new fundamental issues the lattice extension:
 - Inevitable creep of the SiC(111) surface with "carbons on top", shrinking the edges of the atomic layer every 3 iterations. All attempts to fill a cuboidal volume with unit cells resulted in a convex pyramid.
-- No detailed simulation research on whether SiC(111) with "carbons on top" can be extended. A brief attempt at proposing a lattice initiation sequence (by hand / mental math) ended in mixed results.
+- No detailed simulation research on whether SiC(111) with "carbons on top" can be extended. A brief attempt at proposing a layer initiation sequence (by hand / mental math) ended in mixed results.
 - Most likely need control over angle of C<sub>3</sub>C-CC· tool, when abstracting H from a methyl group to form a Si-C bond. This means the IRL nanopositioning device needs quasi-5DOF, or control of the static orientation prior to tip approach.
 
 Other fundamental issues that simulations cannot answer:
