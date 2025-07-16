@@ -11,8 +11,8 @@ Reverses the conclusion of the previous document, which stated that a build sequ
 ## How to Access
 
 There are many technical issues with exporting this research from OneNote to a portable format.
-- On iPadOS, exporting it converts it to a giant, long PDF file.
-- On macOS, exporting it makes a PDF split into 98 pages, each chopped inconveniently in the middle of important sections. In addition, the file size explodes to 4 GB.
+- On iPadOS, exporting converts it to a giant, long PDF file.
+- On macOS, exporting makes a PDF split into 98 pages, each chopped inconveniently in the middle of important sections. In addition, the file size explodes to 4 GB.
 - Both exporting mechanisms invert the colors, changing from dark mode to light mode. This makes yellows difficult to distinguish.
 
 Two options for improvement:
