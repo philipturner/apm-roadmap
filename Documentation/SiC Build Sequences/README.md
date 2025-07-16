@@ -63,4 +63,4 @@ An equally deserved task is revisiting the concluded discoveries with:
 
 Testing these discoveries with IRL hardware will be dangerous and extremely complicated. Much less practical than inverted mode mechanosynthesis of amorphous C with a randomly positioned set of Ge tooltips.
 
-<b>We must be absolutely sure that crystal structure is a mandatory prerequisite for massively parallel molecular manufacturing.</b> The most straightforward conclusion of my research: while crystals can be built in a simulation (e.g. MinToolset paper), this is unlikely to happen in the real world.
+<b>We must be absolutely sure that crystal structure is a prerequisite for massively parallel molecular manufacturing.</b> The most straightforward conclusion of my research: while crystals can be built in a simulation (e.g. MinToolset paper), this is unlikely to happen in the real world.
