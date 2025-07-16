@@ -4,7 +4,7 @@
 
 Preliminary theoretical studies revealed several probable characteristics of Phases IV&ndash;VI. Published simulations of diamondoid mechanosynthesis ([mechanosynthetic-build-sequences](https://github.com/philipturner/mechanosynthetic-build-sequences)) suffer from major flaws. In May&ndash;June 2025, these flaws were discovered and fixed. The new reaction trees are quite elaborate, and not yet published or peer reviewed.
 
-> Update: published in this repo
+> Update: reaction trees are [published in this repo](../SiC%20Build%20Sequences/README.md).
 
 The process for initiating the first SiC cage on a clean SiC(111)/Si(111) build plate was okay. The issue came from extending this cage to multiple crystal unit cells. Existing build sequences did not properly account for quantum tunneling of hydrogens. They did not treat the carbene and silene as resonant equilibrium states, as in the MinToolset paper. The solution was to transform a deposited SiH<sub>3</sub> group into a SiH: diradical, in a two-step manner. Then, transform a deposited CH<sub>3</sub> group into a CH<sub>2</sub>· monoradical. The silicon and carbon atoms deterministically bond, forming a 6-membered ring in mid-air. The silicon ends up as a monoradical site.
 

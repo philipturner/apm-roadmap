@@ -8,7 +8,7 @@ Phase 0: Immediate target is to materialize an improved version of “Fast low-n
 
 Another component of Phase 0 is finite element simulation of electromagnetic fields. Recent developments suggest the Elmer dependency of FreeCAD can be compiled, by targeting x86\_64 and running under Rosetta 2 on Apple silicon. While it is computationally intractable to model electromagnetic radiation, the tool may elucidate static electric fields from nearby high voltage conductors.
 
-> Update: Elmer doesn't compile, at least on my specific Mac. There is no explanation of why the compiler error happens every time. I'll have to use my Windows machine to run these simulations, near-term. It's faster than investing more time into getting it to run on Mac. Source: https://github.com/ElmerCSC/elmerfem/issues/503
+> Update: Now, at least the Elmer executable is compiling on macOS. Have not yet tested whether the integration with FreeCAD works. Source: https://github.com/ElmerCSC/elmerfem/issues/503
 
 Phases I&ndash;III have extreme barriers to entry.
 
