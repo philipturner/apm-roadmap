@@ -5,10 +5,14 @@ Phase 0: Immediate target is to materialize an improved version of “Fast low-n
 > Update: split Phase 0 into two parts
 > 1) Transimpedance amplifier without capacitive displacement sensing
 > 2) Use capacitive displacement sensing to detect the micron-scale actuations from a ThorLabs piezo stack. It requires low voltages of 15&ndash;45 V. Although the PZT material suffers from creep, it's a more accessible stepping stone toward the end goal.
+>
+> Update: deadline to complete the first half of Phase 0 by August 31, 2025
 
 Another component of Phase 0 is finite element simulation of electromagnetic fields. Recent developments suggest the Elmer dependency of FreeCAD can be compiled, by targeting x86\_64 and running under Rosetta 2 on Apple silicon. While it is computationally intractable to model electromagnetic radiation, the tool may elucidate static electric fields from nearby high voltage conductors.
 
 > Update: now, at least the Elmer executable is compiling on macOS. Have not yet tested whether the integration with FreeCAD works. Source: https://github.com/ElmerCSC/elmerfem/issues/503
+>
+> Update: this sub-project has been completed.
 
 Phases I&ndash;III have extreme barriers to entry.
 
